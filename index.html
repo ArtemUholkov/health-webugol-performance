@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-MC249XD');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '969975690335674');
+      fbq('track', 'PageView');
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=969975690335674&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--FONTS-->
+    <!-- Slider-swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Slider-swiper -->
+    <title>Webugol - Moneymaking</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="img/global/favicon.png" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/swipe.css" />
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MC249XD"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="header">
+      <div class="header_wrapper mycontainer">
+        <nav class="navbar">
+          <a href="index.html" class="logo_wrapper">
+            <img src="img/global/logo.png" alt="logo" class="main-logo logo-white" />
+            <img
+              src="img/global/logo-color.png"
+              alt="logo"
+              class="main-logo logo-hide logo-color"
+            />
+          </a>
+
+          <ul class="navbar_menu">
+            <li><p class="nav_elem" onclick="scrollToNumbers()">Projects</p></li>
+            <li><p class="nav_elem" onclick="scrollToSolutions()">Solutions</p></li>
+            <li><p class="nav_elem" onclick="scrollToProcess()">Process</p></li>
+            <li><p class="nav_elem" onclick="scrollToReviews()">Clients reviews</p></li>
+            <li><p class="nav_elem" onclick="scrollToTeam()">Team</p></li>
+          </ul>
+          <div class="header_button_pair">
+            <a href="#contacts" class="main_button" onclick="scrollToSub()"
+              >Get started <img class="arrow_icon" src="img/global/icon_arrow.svg" alt="icon"
+            /></a>
+          </div>
+          <div class="burger">
+            <div class="burger_space" id="burger">
+              <span class="stick"></span>
+              <span class="stick"></span>
+              <span class="stick"></span>
+            </div>
+          </div>
+        </nav>
+        <div class="popup" id="popup">
+          <!-- <img src="img/main/mobbgmenu.png" alt="moblogo" class="mob_menu_bgimage" /> -->
+          <div class="popup_textblock" id="popupSlide">
+            <ul class="navbar_menu_mobile">
+              <li><p class="nav_elem_mobile" onclick="scrollToNumbers()">Projects</p></li>
+              <li>
+                <p class="nav_elem_mobile" onclick="scrollToSolutions()">Solutions</p>
+              </li>
+              <li>
+                <p class="nav_elem_mobile" onclick="scrollToProcess()">Process</p>
+              </li>
+              <li>
+                <p class="nav_elem_mobile" onclick="scrollToReviews()">Clients reviews</p>
+              </li>
+              <li>
+                <p class="nav_elem_mobile" onclick="scrollToTeam()">Team</p>
+              </li>
+            </ul>
+            <div class="header_button_pair mob_menu_buttons">
+              <a
+                href="#contacts"
+                class="main_button mob_button mob_menu_button"
+                onclick="scrollToSub()"
+                >Get started <img class="arrow_icon" src="img/global/icon_arrow.svg" alt="icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="main_picture">
+      <div class="main_picture_content_wrapper" id="container">
+        <div class="main_picture_text_container">
+          <p class="main_picture_title">
+            From <span class="main_picture_text_accent">Clicks</span> to Cures:
+          </p>
+          <p class="main_picture_subtitle">Amplify Your Medical Impact with Digital Marketing</p>
+          <a href="#" onclick="scrollToSub()" class="main_button main_main_button"
+            >Get started<img
+              class="arrow_icon mainarrow"
+              src="img/global/icon_arrow.svg"
+              alt="icon"
+          /></a>
+        </div>
+        <div class="main_picture_swiper_wrapper">
+          <div class="container-for-swiper">
+            <div class="swiper mySwipermainpic">
+              <div class="swiper-wrapper wrappermainpic">
+                <div class="swiper-slide slidemainpic">
+                  <img src="img/swipe/1.webp" class="bg_item_img" alt="1" />
+                  <img src="img/swipe/1-1.webp" alt="2" class="img_from_left" />
+                  <img src="img/swipe/1-2.webp" alt="3" class="img_from_right" />
+                  <div class="switcher">
+                    <p class="switcher_text">Medical marketing</p>
+                    <div class="asdasd_wrapper">
+                      <input type="checkbox" id="toggle-btn" class="asdasd fst_input" />
+                      <label for="toggle-btn" class="asdasd_label"></label>
+                    </div>
+                  </div>
+                  <img src="img/swipe/arrow.png" class="swipe_arrow" alt="swipe_arrow" />
+                </div>
+                <div class="swiper-slide slidemainpic">
+                  <img src="img/swipe/2.webp" class="bg_item_img" alt="1" />
+                  <img src="img/swipe/2-1.webp" alt="2" class="img_from_left" />
+                  <img src="img/swipe/2-2.webp" alt="3" class="img_from_right" />
+                  <div class="switcher">
+                    <p class="switcher_text">Medical marketing</p>
+                    <div class="asdasd_wrapper">
+                      <input type="checkbox" id="toggle-btn" class="asdasd" />
+                      <label for="toggle-btn" class="asdasd_label"></label>
+                    </div>
+                  </div>
+                  <img src="img/swipe/arrow.png" class="swipe_arrow" alt="swipe_arrow" />
+                </div>
+                <div class="swiper-slide slidemainpic">
+                  <img src="img/swipe/3.webp" class="bg_item_img" alt="1" />
+                  <img src="img/swipe/3-1.webp" alt="2" class="img_from_left" />
+                  <img src="img/swipe/3-2.webp" alt="3" class="img_from_right" />
+                  <div class="switcher">
+                    <p class="switcher_text">Medical marketing</p>
+                    <div class="asdasd_wrapper">
+                      <input type="checkbox" id="toggle-btn" class="asdasd" />
+                      <label for="toggle-btn" class="asdasd_label"></label>
+                    </div>
+                  </div>
+                  <img src="img/swipe/arrow.png" class="swipe_arrow" alt="swipe_arrow" />
+                </div>
+                <div class="swiper-slide slidemainpic">
+                  <img src="img/swipe/4.webp" class="bg_item_img" alt="1" />
+                  <img src="img/swipe/4-1.webp" alt="2" class="img_from_left" />
+                  <img src="img/swipe/4-2.webp" alt="3" class="img_from_right" />
+                  <div class="switcher">
+                    <p class="switcher_text">Medical marketing</p>
+                    <div class="asdasd_wrapper">
+                      <input type="checkbox" id="toggle-btn" class="asdasd" />
+                      <label for="toggle-btn" class="asdasd_label"></label>
+                    </div>
+                  </div>
+                  <img src="img/swipe/arrow.png" class="swipe_arrow" alt="swipe_arrow" />
+                </div>
+                <div class="swiper-slide slidemainpic">
+                  <img src="img/swipe/5.webp" class="bg_item_img" alt="1" />
+                  <img src="img/swipe/5-1.webp" alt="2" class="img_from_left" />
+                  <img src="img/swipe/5-2.webp" alt="3" class="img_from_right" />
+                  <div class="switcher">
+                    <p class="switcher_text">Medical marketing</p>
+                    <div class="asdasd_wrapper">
+                      <input type="checkbox" id="toggle-btn" class="asdasd" />
+                      <label for="toggle-btn" class="asdasd_label"></label>
+                    </div>
+                  </div>
+                  <img src="img/swipe/arrow.png" class="swipe_arrow" alt="swipe_arrow" />
+                </div>
+                <div class="swiper-slide slidemainpic">
+                  <img src="img/swipe/6.webp" class="bg_item_img" alt="1" />
+                  <img src="img/swipe/6-1.webp" alt="2" class="img_from_left" />
+                  <img src="img/swipe/6-2.webp" alt="3" class="img_from_right" />
+                  <div class="switcher">
+                    <p class="switcher_text">Medical marketing</p>
+                    <div class="asdasd_wrapper">
+                      <input type="checkbox" id="toggle-btn" class="asdasd" />
+                      <label for="toggle-btn" class="asdasd_label"></label>
+                    </div>
+                  </div>
+                  <img src="img/swipe/arrow.png" class="swipe_arrow" alt="swipe_arrow" />
+                </div>
+                <div class="swiper-slide slidemainpic">
+                  <img src="img/swipe/7.webp" class="bg_item_img" alt="1" />
+                  <img src="img/swipe/7-1.webp" alt="2" class="img_from_left" />
+                  <img src="img/swipe/7-2.webp" alt="3" class="img_from_right" />
+                  <div class="switcher">
+                    <p class="switcher_text">Medical marketing</p>
+                    <div class="asdasd_wrapper">
+                      <input type="checkbox" id="toggle-btn" class="asdasd" />
+                      <label for="toggle-btn" class="asdasd_label"></label>
+                    </div>
+                  </div>
+                  <img src="img/swipe/arrow.png" class="swipe_arrow" alt="swipe_arrow" />
+                </div>
+                <div class="swiper-slide slidemainpic">
+                  <img src="img/swipe/8.webp" class="bg_item_img" alt="1" />
+                  <img src="img/swipe/8-1.webp" alt="2" class="img_from_left" />
+                  <img src="img/swipe/8-2.webp" alt="3" class="img_from_right" />
+                  <div class="switcher">
+                    <p class="switcher_text">Medical marketing</p>
+                    <div class="asdasd_wrapper">
+                      <input type="checkbox" id="toggle-btn" class="asdasd" />
+                      <label for="toggle-btn" class="asdasd_label"></label>
+                    </div>
+                  </div>
+                  <img src="img/swipe/arrow.png" class="swipe_arrow" alt="swipe_arrow" />
+                </div>
+                <div class="swiper-slide slidemainpic">
+                  <img src="img/swipe/9.webp" class="bg_item_img" alt="1" />
+                  <img src="img/swipe/9-1.webp" alt="2" class="img_from_left" />
+                  <img src="img/swipe/9-2.webp" alt="3" class="img_from_right" />
+                  <div class="switcher">
+                    <p class="switcher_text">Medical marketing</p>
+                    <div class="asdasd_wrapper">
+                      <input type="checkbox" id="toggle-btn" class="asdasd" />
+                      <label for="toggle-btn" class="asdasd_label"></label>
+                    </div>
+                  </div>
+                  <img src="img/swipe/arrow.png" class="swipe_arrow" alt="swipe_arrow" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="running-line righttoleft">
+        <div class="running-line_wrapper">
+          <p class="running-line_text">
+            <span class="running-line_circle"></span>peptide therapies
+          </p>
+
+          <p class="running-line_text">
+            <span class="running-line_circle"></span>Medical Concierge
+          </p>
+
+          <p class="running-line_text"><span class="running-line_circle"></span>IV Therapies</p>
+
+          <p class="running-line_text"><span class="running-line_circle"></span>Medical spa</p>
+
+          <p class="running-line_text"><span class="running-line_circle"></span>trt therapies</p>
+
+          <p class="running-line_text"><span class="running-line_circle"></span>weight loss</p>
+
+          <p class="running-line_text"><span class="running-line_circle"></span>Supplements</p>
+          <p class="running-line_text">
+            <span class="running-line_circle"></span>peptide therapies
+          </p>
+
+          <p class="running-line_text">
+            <span class="running-line_circle"></span>Medical Concierge
+          </p>
+
+          <p class="running-line_text"><span class="running-line_circle"></span>IV Therapies</p>
+
+          <p class="running-line_text"><span class="running-line_circle"></span>Medical spa</p>
+        </div>
+        <div class="running-line_wrapper">
+          <p class="running-line_text">
+            <span class="running-line_circle"></span>peptide therapies
+          </p>
+
+          <p class="running-line_text">
+            <span class="running-line_circle"></span>Medical Concierge
+          </p>
+
+          <p class="running-line_text"><span class="running-line_circle"></span>IV Therapies</p>
+
+          <p class="running-line_text"><span class="running-line_circle"></span>Medical spa</p>
+
+          <p class="running-line_text"><span class="running-line_circle"></span>trt therapies</p>
+
+          <p class="running-line_text"><span class="running-line_circle"></span>weight loss</p>
+
+          <p class="running-line_text"><span class="running-line_circle"></span>Supplements</p>
+          <p class="running-line_text">
+            <span class="running-line_circle"></span>peptide therapies
+          </p>
+
+          <p class="running-line_text">
+            <span class="running-line_circle"></span>Medical Concierge
+          </p>
+
+          <p class="running-line_text"><span class="running-line_circle"></span>IV Therapies</p>
+        </div>
+      </div>
+    </section>
+    <section class="numbers" id="numbers">
+      <div class="number_wrapper">
+        <p class="numbers_text pc_text" data-aos="fade-up" data-aos-duration="2000">
+          2023 Overview: Revolutionizing Healthcare Across the US
+        </p>
+        <p class="numbers_text mob_text" data-aos="fade-up" data-aos-duration="1000">
+          2023 Overview: Revolutionizing Healthcare Across the US
+        </p>
+        <div class="numbers_items_wrapper">
+          <div class="numbers_items_line_wrapper" data-aos="fade-up" data-aos-duration="1000">
+            <span class="numbers_deco_line"></span>
+            <div class="numbers_item">
+              <div class="numbers_item_number">$25MM</div>
+              <p class="numbers_item_subtext">generated revenue</p>
+            </div>
+          </div>
+          <div class="numbers_items_line_wrapper" data-aos="fade-up" data-aos-duration="1500">
+            <span class="numbers_deco_line"></span>
+            <div class="numbers_item">
+              <div class="numbers_item_number">20,000+</div>
+              <p class="numbers_item_subtext">leads acquired</p>
+            </div>
+          </div>
+          <div class="numbers_items_line_wrapper" data-aos="fade-up" data-aos-duration="2000">
+            <span class="numbers_deco_line"></span>
+            <div class="numbers_item">
+              <div class="numbers_item_number">40%+</div>
+              <p class="numbers_item_subtext">growth is sales</p>
+            </div>
+          </div>
+        </div>
+
+        <script
+          type="text/javascript"
+          src="https://form.jotform.com/jsform/240451500550341"
+        ></script>
+      </div>
+    </section>
+    <section class="solutions" id="solutions">
+      <div class="background_wrapper"></div>
+      <div class="section_title_wrapper" data-aos="zoom-in">
+        <h2 class="section_ti">SOLUTIONS</h2>
+      </div>
+      <div class="section_subtitle_wrapper" data-aos="zoom-in">
+        <p class="section_subtitle">Maximize your ROI</p>
+      </div>
+      <div class="swiper mySwiper" data-aos="fade-up" data-aos-duration="1000">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide first_slide">
+            <div class="slide_content_wrapper">
+              <img src="img/solutions/google.svg" alt="google" class="solutions_slider_icon" />
+              <div class="solutions_slider_text_wrapper">
+                <p class="solutions_slider_title">Google Ads</p>
+                <p class="solutions_slider_text">
+                  Be first, be visible! When your customers are looking for your products or
+                  services, do not be hard to find. Be visible with Google Ads!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_content_wrapper">
+              <img src="img/solutions/facebook.svg" alt="fb" class="solutions_slider_icon" />
+              <div class="solutions_slider_text_wrapper">
+                <p class="solutions_slider_title">Facebook Ads</p>
+                <p class="solutions_slider_text">
+                  Boost your Brand! Facebook is an ideal tool for leadgeneration but it’s also the
+                  most effective way to increase your brand awareness worldwide!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_content_wrapper">
+              <img src="img/solutions/website-seo.svg" alt="seo" class="solutions_slider_icon" />
+              <div class="solutions_slider_text_wrapper">
+                <p class="solutions_slider_title">Website SEO</p>
+                <p class="solutions_slider_text">
+                  Maximize profits with the top marketing tool! SEO boosts your website's traffic
+                  via Google, enhancing visibility and driving conversions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_content_wrapper">
+              <img src="img/solutions/local-seo.png" alt="seo" class="solutions_slider_icon" />
+              <div class="solutions_slider_text_wrapper">
+                <p class="solutions_slider_title">Local SEO</p>
+                <p class="solutions_slider_text">
+                  It's vital for SMEs as it boosts your business's visibility on Google Maps, thus
+                  promoting local customer interaction and brand awareness.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_content_wrapper">
+              <img src="img/solutions/email.svg" alt="mail" class="solutions_slider_icon" />
+              <div class="solutions_slider_text_wrapper">
+                <p class="solutions_slider_title">Email marketing</p>
+                <p class="solutions_slider_text">
+                  The highest ROI digital marketing tool! Increase your sales and brand awareness
+                  with eCommerce emailing funnels.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="swiper-slide last_slide">Slide 9</div> -->
+        </div>
+      </div>
+      <div class="buttons_wrapper">
+        <div class="swiper-button-prev solutions-button-prev disabled_swiper_button">
+          <img src="img/sliders_buttons/right_white.png" alt="arrow" />
+        </div>
+        <div class="swiper-button-next solutions-button-next">
+          <img src="img/sliders_buttons/right_white.png" alt="arrow" />
+        </div>
+      </div>
+    </section>
+    <section class="process" id="process">
+      <div class="background_wrapper1"></div>
+      <div class="section_title_wrapper process_title_wrapper" data-aos="zoom-in">
+        <h2 class="section_ti">PROCESS</h2>
+      </div>
+      <div class="section_subtitle_wrapper" data-aos="zoom-in">
+        <p class="section_subtitle">Analyze twice before you start once</p>
+      </div>
+      <div class="process_wrapper">
+        <div class="process_123_line">
+          <div class="process_line_elem_wrapper">
+            <img src="img/process/1.png" alt="first" class="process_icon" />
+            <span class="process_line"></span>
+            <span class="process_number_in_box">1</span>
+          </div>
+          <div class="process_line_elem_wrapper">
+            <img src="img/process/1.png" alt="second" class="process_icon" />
+            <span class="process_line"></span>
+            <span class="process_number_in_box">2</span>
+          </div>
+          <div class="process_line_elem_wrapper">
+            <img src="img/process/1.png" alt="third" class="process_icon" />
+            <span class="process_number_in_box">3</span>
+          </div>
+        </div>
+        <div class="process_items_wrapper">
+          <div class="wr">
+            <div class="process_items_item" data-aos="fade-right" data-aos-delay="500">
+              <p class="solutions_slider_title process_title">Conducting market analysis</p>
+              <p class="solutions_slider_text">
+                To find out the profitability of each channel before starting any advertising
+              </p>
+            </div>
+          </div>
+          <div class="wr">
+            <div class="process_items_item" data-aos="fade-right" data-aos-delay="1000">
+              <p class="solutions_slider_title process_title">Building profitable strategy</p>
+              <p class="solutions_slider_text">
+                Building the advertising flows based on the best-performing channels
+              </p>
+            </div>
+          </div>
+          <div class="wr">
+            <div class="process_items_item" data-aos="fade-right" data-aos-delay="1500">
+              <p class="solutions_slider_title process_title">Launching, testing, optimizing</p>
+              <p class="solutions_slider_text">
+                Launching and optimizing your ads to achieve exceptional results
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="process_mob_items">
+          <div class="process_mob_items_item" data-aos="fade-up" data-aos-duration="800">
+            <div class="process_mob_items_item_arrow">
+              <img src="img/process/1.png" alt="arrow" class="process_mob_arrow" />
+              <span class="process_mob_number_in_box">1</span>
+            </div>
+            <div class="process_mob_items_item_arrow_text">
+              <p class="process_mob_items_text_title">Conducting market analysis</p>
+              <p class="process_mob_items_text_text">
+                To find out the profitability of each channel before starting any advertising
+              </p>
+            </div>
+          </div>
+          <span class="process_line"></span>
+          <div class="process_mob_items_item" data-aos="fade-up" data-aos-duration="800">
+            <div class="process_mob_items_item_arrow">
+              <img src="img/process/1.png" alt="arrow" class="process_mob_arrow" />
+              <span class="process_mob_number_in_box">2</span>
+            </div>
+            <div class="process_mob_items_item_arrow_text">
+              <p class="process_mob_items_text_title">Building profitable strategy</p>
+              <p class="process_mob_items_text_text">
+                Building the advertising flows based on the best-performing channels
+              </p>
+            </div>
+          </div>
+          <span class="process_line"></span>
+          <div class="process_mob_items_item" data-aos="fade-up" data-aos-duration="800">
+            <div class="process_mob_items_item_arrow">
+              <img src="img/process/1.png" alt="arrow" class="process_mob_arrow" />
+              <span class="process_mob_number_in_box">3</span>
+            </div>
+            <div class="process_mob_items_item_arrow_text">
+              <p class="process_mob_items_text_title">Launching, testing, optimizing</p>
+              <p class="process_mob_items_text_text">
+                Launching and optimizing your ads to achieve exceptional results
+              </p>
+            </div>
+          </div>
+          <span class="process_line"></span>
+        </div>
+      </div>
+    </section>
+    <section class="reviews" id="reviews">
+      <div class="section_title_wrapper reviews_title_wrapper" data-aos="zoom-in">
+        <h2 class="section_ti">Clients reviews</h2>
+      </div>
+      <div class="section_subtitle_wrapper" data-aos="zoom-in">
+        <p class="section_subtitle">What clients say about us</p>
+      </div>
+      <div class="swiper mySwiper1" data-aos="fade-up" data-aos-duration="1000">
+        <div class="swiper-wrapper reviews_swiper_wrapper">
+          <div class="swiper-slide reviews_swiper_slide first_slide">
+            <div class="reviews_image_wrapper">
+              <img
+                src="img/reviews/Ingrid.webp"
+                alt="first review"
+                class="reviews_video_image"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              />
+              <div class="playbutton_wrapper">
+                <img
+                  src="img/reviews/play.png"
+                  alt="play button"
+                  class="play_button"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                />
+              </div>
+            </div>
+            <div class="reviews_content_wrapper">
+              <p class="reviews_content_title">
+                “I could never believe a company from Ukraine is building such things!”
+              </p>
+              <p class="reviews_content_name">Ingrid Dodd</p>
+              <p class="reviews_content_position">Chief Marketing Officer at Optyx New York</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide reviews_swiper_slide first_slide">
+            <div class="reviews_image_wrapper" data-toggle="modal" data-target="#exampleModal2">
+              <img src="img/reviews/Patrick.webp" alt="second review" class="reviews_video_image" />
+              <div class="playbutton_wrapper">
+                <img src="img/reviews/play.png" alt="play button" class="play_button" />
+              </div>
+            </div>
+            <div class="reviews_content_wrapper">
+              <p class="reviews_content_title">
+                “We are happy to have a very comfortable working relationship!”
+              </p>
+              <p class="reviews_content_name">Patrick Harrison</p>
+              <p class="reviews_content_position">Chief Executive Officer at CoreChair</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide reviews_swiper_slide first_slide">
+            <div class="reviews_image_wrapper" data-toggle="modal" data-target="#exampleModa4">
+              <img src="img/reviews/Tim.webp" alt="fourth review" class="reviews_video_image" />
+              <div class="playbutton_wrapper">
+                <img src="img/reviews/play.png" alt="play button" class="play_button" />
+              </div>
+            </div>
+            <div class="reviews_content_wrapper">
+              <p class="reviews_content_title">
+                “I feel like Webugol is going extra mile every day to grow my business!”
+              </p>
+              <p class="reviews_content_name">Tim Waring</p>
+              <p class="reviews_content_position">Chief Executive Officer at Eves & Gray London</p>
+            </div>
+          </div>
+          <div class="swiper-slide reviews_swiper_slide first_slide">
+            <div class="reviews_image_wrapper" data-toggle="modal" data-target="#exampleModal3">
+              <img src="img/reviews/Bohdana.webp" alt="third review" class="reviews_video_image" />
+              <div class="playbutton_wrapper">
+                <img src="img/reviews/play.png" alt="play button" class="play_button" />
+              </div>
+            </div>
+            <div class="reviews_content_wrapper">
+              <p class="reviews_content_title">
+                “Webugol is a reliable partner that transformed our business!”
+              </p>
+              <p class="reviews_content_name">Bohdana Kaflyuk</p>
+              <p class="reviews_content_position">Owner at Explore Agency</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="buttons_wrapper">
+        <div class="swiper-button-prev reviews_button-prev">
+          <img src="img/sliders_buttons/right_white.png" alt="arrow" />
+        </div>
+        <div class="swiper-button-next reviews_button-next">
+          <img src="img/sliders_buttons/right_white.png" alt="arrow" />
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content" id="yt-player">
+            <iframe class="modal_video" src="https://www.youtube.com/embed/Ossqc7xKtyM"> </iframe>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="exampleModal2"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content" id="yt-player">
+            <iframe class="modal_video" src="https://www.youtube.com/embed/WrkdFYnJGks"> </iframe>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="exampleModal3"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content" id="yt-player">
+            <iframe class="modal_video" src="https://www.youtube.com/embed/Z5htoHU8E38"> </iframe>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="exampleModa4"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content" id="yt-player">
+            <iframe class="modal_video" src="https://www.youtube.com/embed/IrHXg92Vg6E"> </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="wrap_line">
+      <div class="running-line imgrighttoleft pad-fix" data-aos="zoom-in" data-aos-duration="2000">
+        <div class="running-line_wrapper img_running_line">
+          <img
+            src="img/clients/corechair.webp"
+            alt="corechair"
+            class="running_line_img main_corechair"
+          />
+          <img
+            src="img/clients/lhk.webp"
+            alt="lady health Klinik"
+            class="running_line_img lhk"
+          /><img
+            src="img/clients/servotech.webp"
+            alt="servotech"
+            class="running_line_img servotech"
+          />
+          <img src="img/clients/optyx.webp" alt="optyx" class="running_line_img optyx" /><img
+            src="img/clients/valhalla.webp"
+            alt="valhalla"
+            class="running_line_img valhalla"
+          />
+          <img src="img/clients/revamp.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/valhala.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/fitfest.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/canadian.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/KK.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/uniol.webp" alt="corechair" class="running_line_img corechair" />
+        </div>
+        <div class="running-line_wrapper img_running_line">
+          <img
+            src="img/clients/corechair.webp"
+            alt="corechair"
+            class="running_line_img main_corechair"
+          />
+          <img
+            src="img/clients/lhk.webp"
+            alt="lady health Klinik"
+            class="running_line_img lhk"
+          /><img
+            src="img/clients/servotech.webp"
+            alt="servotech"
+            class="running_line_img servotech"
+          />
+          <img src="img/clients/optyx.webp" alt="optyx" class="running_line_img optyx" /><img
+            src="img/clients/valhalla.webp"
+            alt="valhalla"
+            class="running_line_img valhalla"
+          />
+          <img src="img/clients/revamp.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/valhala.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/fitfest.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/canadian.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/KK.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/uniol.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/bildex.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/stairs.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/drobot.webp" alt="corechair" class="running_line_img corechair" />
+          <img
+            src="img/clients/servicedeck.webp"
+            alt="corechair"
+            class="running_line_img corechair"
+          />
+          <img src="img/clients/lily.webp" alt="corechair" class="running_line_img corechair" />
+          <img
+            src="img/clients/mainstream.webp"
+            alt="corechair"
+            class="running_line_img corechair"
+          />
+          <img src="img/clients/mcs.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/DS.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/quyality.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/bryer.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/car.webp" alt="corechair" class="running_line_img corechair" />
+        </div>
+        <div class="running-line_wrapper img_running_line">
+          <img src="img/clients/bildex.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/stairs.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/drobot.webp" alt="corechair" class="running_line_img corechair" />
+          <img
+            src="img/clients/servicedeck.webp"
+            alt="corechair"
+            class="running_line_img corechair"
+          />
+          <img src="img/clients/lily.webp" alt="corechair" class="running_line_img corechair" />
+          <img
+            src="img/clients/mainstream.webp"
+            alt="corechair"
+            class="running_line_img corechair"
+          />
+          <img src="img/clients/mcs.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/DS.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/quyality.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/bryer.webp" alt="corechair" class="running_line_img corechair" />
+          <img src="img/clients/car.webp" alt="corechair" class="running_line_img corechair" />
+        </div>
+      </div>
+    </div>
+    <section class="ready">
+      <div class="ready_wrapper">
+        <div class="ready_content_wrapper" data-aos="zoom-in" data-aos-duration="1000">
+          <p class="ready_title">Ready to get started?</p>
+          <p class="ready_subtitle">
+            Contact our team to start your<span class="dont_show_mob"> digital</span> marketing
+            journey and transform your business!
+          </p>
+          <a
+            href="#contacts"
+            onclick="scrollToSub()"
+            id="team"
+            class="main_button mob_button ready_button"
+            >Get started<img class="arrow_icon" src="img/global/icon_arrow.svg" alt="icon"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="team">
+      <div
+        class="section_title_wrapper team_title_wrapper reviews_title_wrapper"
+        data-aos="zoom-in"
+      >
+        <h2 class="section_ti">TEAM</h2>
+      </div>
+      <div class="section_subtitle_wrapper" data-aos="zoom-in">
+        <p class="section_subtitle team_subtitle">Marketing team to achieve your goals</p>
+      </div>
+      <div class="swiper mySwiper3" data-aos="fade-up" data-aos-duration="1000">
+        <div class="swiper-wrapper team_swiper_wrapper">
+          <div class="swiper-slide reviews_swiper_slide team_swiper_slide first_slide">
+            <div class="reviews_image_wrapper">
+              <img src="img/team/ugolkov.webp" alt="ugolkov" class="reviews_video_image" />
+            </div>
+            <div class="team_content_wrapper reviews_content_wrapper">
+              <p class="team_content_title">Eugene Ugolkov</p>
+              <p class="team_content_subtitle">Commercial Director and Co-founder</p>
+            </div>
+          </div>
+          <div class="swiper-slide reviews_swiper_slide team_swiper_slide first_slide">
+            <div class="reviews_image_wrapper">
+              <img src="img/team/hlushko.webp" alt="hlushko" class="reviews_video_image" />
+            </div>
+            <div class="team_content_wrapper reviews_content_wrapper">
+              <p class="team_content_title">Oksana Hlushko</p>
+              <p class="team_content_subtitle">Digital Marketing Expert</p>
+            </div>
+          </div>
+          <div class="swiper-slide reviews_swiper_slide team_swiper_slide first_slide">
+            <div class="reviews_image_wrapper">
+              <img src="img/team/oprysko.webp" alt="oprysko" class="reviews_video_image" />
+            </div>
+            <div class="team_content_wrapper reviews_content_wrapper">
+              <p class="team_content_title">Andrii Oprysko</p>
+              <p class="team_content_subtitle">Social media specialist</p>
+            </div>
+          </div>
+          <div class="swiper-slide reviews_swiper_slide team_swiper_slide first_slide">
+            <div class="reviews_image_wrapper">
+              <img src="img/team/pushkova.webp" alt="pushkova" class="reviews_video_image" />
+            </div>
+            <div class="team_content_wrapper reviews_content_wrapper">
+              <p class="team_content_title">Veronika Pushkova</p>
+              <p class="team_content_subtitle">Google Ads specialist</p>
+            </div>
+          </div>
+          <div class="swiper-slide reviews_swiper_slide team_swiper_slide first_slide">
+            <div class="reviews_image_wrapper">
+              <img src="img/team/olenamyts.webp" alt="myts" class="reviews_video_image" />
+            </div>
+            <div class="team_content_wrapper reviews_content_wrapper">
+              <p class="team_content_title">Olena Myts</p>
+              <p class="team_content_subtitle">Head of SEO</p>
+            </div>
+          </div>
+          <div class="swiper-slide reviews_swiper_slide team_swiper_slide first_slide">
+            <div class="reviews_image_wrapper">
+              <img src="img/team/hevakovska.webp" alt="hevakovska" class="reviews_video_image" />
+            </div>
+            <div class="team_content_wrapper reviews_content_wrapper">
+              <p class="team_content_title">Oksana Hevakovska</p>
+              <p class="team_content_subtitle">Account Strategist</p>
+            </div>
+          </div>
+          <div class="swiper-slide reviews_swiper_slide team_swiper_slide first_slide">
+            <div class="reviews_image_wrapper">
+              <img src="img/team/olenaartiukh.webp" alt="Artiukh" class="reviews_video_image" />
+            </div>
+            <div class="team_content_wrapper reviews_content_wrapper">
+              <p class="team_content_title">Olena Artiukh</p>
+              <p class="team_content_subtitle">SEO Specialist/Linkbuilder</p>
+            </div>
+          </div>
+
+          <!-- <div class="swiper-slide last_slide">Slide 9</div> -->
+        </div>
+      </div>
+      <div class="buttons_wrapper">
+        <div class="swiper-button-prev team_button-prev">
+          <img src="img/sliders_buttons/right_white.png" alt="arrow" />
+        </div>
+        <div class="swiper-button-next team_button-next">
+          <img src="img/sliders_buttons/right_white.png" alt="arrow" />
+        </div>
+      </div>
+    </section>
+    <section class="sub" id="sub">
+      <div
+        class="section_title_wrapper team_title_wrapper reviews_title_wrapper"
+        data-aos="zoom-in"
+      >
+        <h2 class="section_ti">FORM</h2>
+      </div>
+      <div class="section_subtitle_wrapper" data-aos="zoom-in">
+        <p class="section_subtitle">Fill out the form once and receive market analysis</p>
+      </div>
+      <div class="sub_wrapper">
+        <form class="sub_form_form forma" id="javascript_form">
+          <div class="mainform_inputs_wrapper">
+            <div class="input-container hiden" data-aos="fade-up" data-aos-duration="800">
+              <input type="text" name="Subject" value="New Customer from website Medics" />
+            </div>
+
+            <div class="input-container hiden" data-aos="fade-up" data-aos-duration="800">
+              <input required type="text" name="text" value="New customer from website Medics" />
+            </div>
+            <div class="form_left_side_wrapper">
+              <div class="question_wrapper">
+                <p class="form_question" data-aos="zoom-in">
+                  Please share your contact information
+                </p>
+                <p class="form_subquestion" data-aos="zoom-in">
+                  We will use it to send you the market analysis
+                </p>
+                <div class="form_pair_wrapper">
+                  <div class="input-container">
+                    <input required type="text" name="extra_name" placeholder="Your Name" />
+                  </div>
+
+                  <div class="input-container">
+                    <input
+                      required
+                      type="tel"
+                      name="extra_phone_number"
+                      placeholder="Valid phone number"
+                      class="phone_numba"
+                    />
+                  </div>
+                  <div class="input-container">
+                    <input required type="email" name="extra_email" placeholder="Valid email" />
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="question_wrapper">
+                <p class="form_question" data-aos="zoom-in">
+                  Phone Number,<br />
+                  Email
+                </p>
+                <p class="form_subquestion" data-aos="zoom-in">
+                  Phone number and email help to better communicate with you!
+                </p>
+                <div class="form_pair_wrapper"></div>
+              </div> -->
+
+              <div class="question_wrapper">
+                <p class="form_question" data-aos="zoom-in">What's your website link?</p>
+                <p class="form_subquestion" data-aos="zoom-in">
+                  We will evaluate how well your website attracts and retains customers
+                </p>
+                <div class="form_pair_wrapper">
+                  <div class="input-container">
+                    <input required type="text" name="extra_link" placeholder="Your website link" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form_right_side_wrapper">
+              <div class="question_wrapper">
+                <p class="form_question" data-aos="zoom-in">
+                  What is the target location of your potential?
+                </p>
+                <p class="form_subquestion" data-aos="zoom-in">
+                  We will collect data for your specific area
+                </p>
+                <div class="form_pair_wrapper">
+                  <div class="input-container">
+                    <input
+                      required
+                      type="text"
+                      name="extra_target"
+                      placeholder="Write your target location"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="question_wrapper">
+                <p class="form_question" data-aos="zoom-in">
+                  Please tell us about the services you would like to promote
+                </p>
+                <p class="form_subquestion" data-aos="zoom-in">
+                  We will prepare audiences and keyword lists for your target services
+                </p>
+                <div class="form_pair_wrapper">
+                  <div class="input-container">
+                    <textarea
+                      required
+                      name="extra_about"
+                      placeholder="Write about your services"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="question_wrapper">
+                <p class="form_question" data-aos="zoom-in">
+                  What is the target budget you would like to allocate?
+                </p>
+                <p class="form_subquestion" data-aos="zoom-in">
+                  We will evaluate how well your website attracts and retains customers
+                </p>
+                <div class="form_pair_wrapper">
+                  <div class="form_selector_wrapper">
+                    <div class="wrap_three_radio">
+                      <div class="radio">
+                        <input
+                          class="radio_but"
+                          type="radio"
+                          id="fst"
+                          name="invest"
+                          value="$1000 - $2000"
+                          checked
+                        />
+                        <label for="fst" class="radio-label">$1000 - $2000</label>
+                      </div>
+                      <div class="radio">
+                        <input
+                          class="radio_but"
+                          type="radio"
+                          id="scd"
+                          name="invest"
+                          value="$2000 - $5000"
+                        />
+                        <label for="scd" class="radio-label">$2000 - $5000</label>
+                      </div>
+                      <div class="radio">
+                        <input
+                          class="radio_but"
+                          type="radio"
+                          id="trd"
+                          name="invest"
+                          value="$5000 - $10000"
+                        />
+                        <label for="trd" class="radio-label">$5000 - $10000</label>
+                      </div>
+                    </div>
+                    <div class="wrap_two_radio">
+                      <div class="radio">
+                        <input
+                          class="radio_but"
+                          type="radio"
+                          id="fth"
+                          name="invest"
+                          value="> $10000"
+                        />
+                        <label for="fth" class="radio-label">> $10000</label>
+                      </div>
+                      <div class="radio">
+                        <input
+                          class="radio_but"
+                          type="radio"
+                          id="more"
+                          name="invest"
+                          value="I don't know yet"
+                        />
+                        <label for="more" class="radio-label">I don't know yet</label>
+                      </div>
+                    </div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <input id="js_send" type="submit" value="Send" class="main_button form_button" />
+          <div class="input-container hiden">
+            <input type="text" name="extra_budget" class="hiden_radio" value="" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <div class="deco_line_wrapper">
+      <span class="sub_deco_line" data-aos="fade-up"></span>
+    </div>
+    <footer data-aos="fade-up">
+      <div class="footer_wrapper">
+        <div class="footer_texts_wrapper">
+          <img src="img/footer/logo.png" alt="logo" class="footer_logo" />
+
+          <div class="logos_wrapper">
+            <div class="footer_logos_wrapper">
+              <a href="https://www.facebook.com/webugol/" target="_blank"
+                ><img src="img/footer/facebook.png" alt="fb" class="footer_logo_links"
+              /></a>
+              <a href="https://www.instagram.com/webugol/" target="_blank"
+                ><img src="img/footer/instagram.png" alt="inst" class="footer_logo_links"
+              /></a>
+              <a href="https://www.linkedin.com/company/webugol/" target="_blank"
+                ><img src="img/footer/linkedin.png" alt="linkedin" class="footer_logo_links"
+              /></a>
+              <a
+                target="_blank"
+                href="https://www.google.com/maps/place/Webugol+-+%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2%D0%B0+%D0%B0%D0%B3%D0%B5%D0%BD%D1%86%D1%96%D1%8F/@49.8523671,24.0207104,17z/data=!3m1!4b1!4m5!3m4!1s0x473add9a181694ad:0x36b4b7078b0aac35!8m2!3d49.8523671!4d24.0228991"
+                ><img src="img/footer/google.png" alt="google" class="footer_logo_links"
+              /></a>
+              <a href="https://clutch.co/profile/webugol#summary" target="_blank"
+                ><img src="img/footer/c.png" alt="c" class="footer_logo_links"
+              /></a>
+              <a href="https://www.youtube.com/channel/UCTz9pjgaffPnINNaLWF-gOQ" target="_blank"
+                ><img src="img/footer/youtube.png" alt="youtube" class="footer_logo_links"
+              /></a>
+            </div>
+            <div class="footer_partners_wrapper">
+              <div class="footer_partners_pair">
+                <div class="footer_partner_wrapper">
+                  <img src="img/footer/fbpartner.png" alt="fbpartner" class="footer_partner" />
+                </div>
+                <div class="footer_partner_wrapper">
+                  <img src="img/footer/klaviyo.png" alt="klaviyo" class="footer_partner" />
+                </div>
+              </div>
+              <div class="footer_partners_pair right_pair">
+                <div class="footer_partner_wrapper">
+                  <img src="img/footer/googlepartner.png" alt="google" class="footer_partner" />
+                </div>
+                <div class="footer_partner_wrapper">
+                  <img src="img/footer/shopify.png" alt="shopify" class="footer_partner" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="logos_wrapper rightside_l">
+          <img src="img/footer/footerbglogo.png" alt="bglogo" class="bglogofooter" />
+          <p class="footer_right_side_text">Boost your digital marketing!</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+    <!-- <script>
+      var submitButton = document.getElementById('submit_form');
+      var form = document.getElementById('email_form');
+      form.addEventListener('submit', function (e) {
+        setTimeout(function () {
+          submitButton.value = 'Sending...';
+          submitButton.disabled = true;
+        }, 1);
+        setTimeout(() => {
+          window.location.href = 'thankyou.html';
+        }, 1000);
+      });
+    </script> -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <!-- Initialize Swiper -->
+    <script>
+      var swipermain = new Swiper('.mySwipermainpic', {
+        slidesPerView: 1,
+        effect: 'fade',
+        fadeEffect: {
+          crossFade: true,
+        },
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+      });
+
+      setTimeout(() => {
+        document.querySelector('.fst_input').checked = true;
+      }, 1000);
+      let allsliders = document.querySelectorAll('.slidemainpic');
+      swipermain.on('transitionEnd', function (e) {
+        allsliders.forEach((item) => {
+          if (item.classList.contains('swiper-slide-active')) {
+            setTimeout(() => {
+              item.children[3].children[1].children[0].checked = true;
+            }, 1000);
+          } else {
+            item.children[3].children[1].children[0].checked = false;
+          }
+        });
+      });
+    </script>
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        slidesOffsetAfter: 100,
+        slidesOffsetBefore: 150,
+        slidesPerView: 4.7,
+        navigation: {
+          nextEl: '.solutions-button-next',
+          prevEl: '.solutions-button-prev',
+          disabledClass: 'disabled_swiper_button',
+        },
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1.3,
+            spaceBetween: 12,
+            slideToClickedSlide: true,
+            slidesOffsetBefore: 20,
+            slidesOffsetAfter: 20,
+          },
+          755: {
+            slidesPerView: 2.6,
+            spaceBetween: 12,
+            slideToClickedSlide: true,
+            slidesOffsetBefore: 20,
+            slidesOffsetAfter: 20,
+          },
+          // when window width is >= 480px
+          1100: {
+            slidesPerView: 3.6,
+            spaceBetween: 12,
+            slideToClickedSlide: true,
+            slidesOffsetBefore: 100,
+            slidesOffsetAfter: 100,
+          },
+          // when window width is >= 640px
+          1510: {
+            slidesPerView: 4.7,
+            spaceBetween: 12,
+            slideToClickedSlide: true,
+            slidesOffsetBefore: 150,
+            slidesOffsetAfter: 50,
+          },
+          1800: {
+            slidesPerView: 4.5,
+            spaceBetween: 12,
+            slideToClickedSlide: true,
+            slidesOffsetBefore: 150,
+            slidesOffsetAfter: 50,
+          },
+        },
+      });
+    </script>
+    <script>
+      var swiper1 = new Swiper('.mySwiper1', {
+        slidesOffsetAfter: 100,
+        slidesOffsetBefore: 150,
+        slidesPerView: 4.7,
+        navigation: {
+          nextEl: '.reviews_button-next',
+          prevEl: '.reviews_button-prev',
+          disabledClass: 'disabled_swiper_button',
+        },
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1.25,
+            spaceBetween: 12,
+
+            slidesOffsetBefore: 20,
+            slidesOffsetAfter: 20,
+          },
+          755: {
+            slidesPerView: 2.6,
+            spaceBetween: 12,
+
+            slidesOffsetBefore: 20,
+            slidesOffsetAfter: 20,
+          },
+          // when window width is >= 480px
+          1100: {
+            slidesPerView: 3.6,
+            spaceBetween: 12,
+
+            slidesOffsetBefore: 100,
+            slidesOffsetAfter: 100,
+          },
+          // when window width is >= 640px
+          1510: {
+            slidesPerView: 4,
+            spaceBetween: 12,
+
+            slidesOffsetBefore: 0,
+            slidesOffsetAfter: 0,
+          },
+        },
+      });
+    </script>
+    <script>
+      var swiper2 = new Swiper('.mySwiper3', {
+        // slidesOffsetAfter: 0,
+        // slidesOffsetBefore: 0,
+        // slidesPerView: 4.2,
+        navigation: {
+          nextEl: '.team_button-next',
+          prevEl: '.team_button-prev',
+          disabledClass: 'disabled_swiper_button',
+        },
+        observer: true,
+        observeParents: true,
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1.3,
+            spaceBetween: 12,
+            slideToClickedSlide: true,
+            slidesOffsetBefore: 20,
+            slidesOffsetAfter: 20,
+          },
+          755: {
+            slidesPerView: 2.6,
+            spaceBetween: 12,
+            slideToClickedSlide: true,
+            slidesOffsetBefore: 20,
+            slidesOffsetAfter: 20,
+          },
+          // when window width is >= 480px
+          1100: {
+            slidesPerView: 3.6,
+            spaceBetween: 12,
+            slideToClickedSlide: true,
+            slidesOffsetBefore: 100,
+            slidesOffsetAfter: 100,
+          },
+          // when window width is >= 640px
+          1510: {
+            slidesPerView: 4.2,
+            spaceBetween: 12,
+            slideToClickedSlide: true,
+            slidesOffsetBefore: 150,
+            slidesOffsetAfter: 100,
+          },
+          1650: {
+            slidesPerView: 4.2,
+            spaceBetween: 12,
+            slideToClickedSlide: true,
+            slidesOffsetBefore: 150,
+            slidesOffsetAfter: 50,
+          },
+          1800: {
+            slidesPerView: 4.2,
+            spaceBetween: 12,
+            slideToClickedSlide: true,
+            slidesOffsetBefore: 150,
+            slidesOffsetAfter: -70,
+          },
+        },
+      });
+    </script>
+    <!-- Initialize Swiper -->
+  </body>
+  <script>
+    $(document).ready(function () {
+      $('.modal').each(function () {
+        var src = $(this).find('iframe').attr('src');
+
+        $(this).on('click', function () {
+          $(this).find('iframe').attr('src', '');
+          $(this).find('iframe').attr('src', src);
+        });
+      });
+    });
+  </script>
+</html>

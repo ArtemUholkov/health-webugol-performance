@@ -264,3 +264,22 @@ var js_form = document.getElementById(form_id_js);
 js_form.addEventListener('submit', function (e) {
   e.preventDefault();
 });
+const fstvideo = document.querySelector('#fst_video');
+const sndtvideo = document.querySelector('#snd_video');
+const trdvideo = document.querySelector('#trd_video');
+const fthvideo = document.querySelector('#fth_video');
+
+function loadvideo1() {
+  fstvideo.src = 'https://www.youtube.com/embed/Ossqc7xKtyM';
+}
+function loadvideo2() {
+  sndtvideo.src = 'https://www.youtube.com/embed/WrkdFYnJGks';
+}
+function loadvideo3() {
+  trdvideo.src = 'https://www.youtube.com/embed/Z5htoHU8E38';
+}
+function loadvideo4() {
+  fthvideo.src = 'https://www.youtube.com/embed/IrHXg92Vg6E';
+}
+
+// https://www.youtube.com/embed/Ossqc7xKtyM

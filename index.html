@@ -577,6 +577,7 @@
                 class="reviews_video_image"
                 data-toggle="modal"
                 data-target="#exampleModal"
+                onclick="loadvideo1()"
               />
               <div class="playbutton_wrapper">
                 <img
@@ -598,7 +599,12 @@
           </div>
 
           <div class="swiper-slide reviews_swiper_slide first_slide">
-            <div class="reviews_image_wrapper" data-toggle="modal" data-target="#exampleModal2">
+            <div
+              class="reviews_image_wrapper"
+              data-toggle="modal"
+              data-target="#exampleModal2"
+              onclick="loadvideo2()"
+            >
               <img src="img/reviews/Patrick.webp" alt="second review" class="reviews_video_image" />
               <div class="playbutton_wrapper">
                 <img src="img/reviews/play.png" alt="play button" class="play_button" />
@@ -614,7 +620,12 @@
           </div>
 
           <div class="swiper-slide reviews_swiper_slide first_slide">
-            <div class="reviews_image_wrapper" data-toggle="modal" data-target="#exampleModa4">
+            <div
+              class="reviews_image_wrapper"
+              data-toggle="modal"
+              data-target="#exampleModa4"
+              onclick="loadvideo4()"
+            >
               <img src="img/reviews/Tim.webp" alt="fourth review" class="reviews_video_image" />
               <div class="playbutton_wrapper">
                 <img src="img/reviews/play.png" alt="play button" class="play_button" />
@@ -629,7 +640,12 @@
             </div>
           </div>
           <div class="swiper-slide reviews_swiper_slide first_slide">
-            <div class="reviews_image_wrapper" data-toggle="modal" data-target="#exampleModal3">
+            <div
+              class="reviews_image_wrapper"
+              data-toggle="modal"
+              data-target="#exampleModal3"
+              onclick="loadvideo3()"
+            >
               <img src="img/reviews/Bohdana.webp" alt="third review" class="reviews_video_image" />
               <div class="playbutton_wrapper">
                 <img src="img/reviews/play.png" alt="play button" class="play_button" />
@@ -663,7 +679,7 @@
       >
         <div class="modal-dialog" role="document">
           <div class="modal-content" id="yt-player">
-            <iframe class="modal_video" src="https://www.youtube.com/embed/Ossqc7xKtyM"> </iframe>
+            <iframe class="modal_video" id="fst_video" src=""> </iframe>
           </div>
         </div>
       </div>
@@ -677,7 +693,7 @@
       >
         <div class="modal-dialog" role="document">
           <div class="modal-content" id="yt-player">
-            <iframe class="modal_video" src="https://www.youtube.com/embed/WrkdFYnJGks"> </iframe>
+            <iframe class="modal_video" src="" id="snd_video"> </iframe>
           </div>
         </div>
       </div>
@@ -691,7 +707,7 @@
       >
         <div class="modal-dialog" role="document">
           <div class="modal-content" id="yt-player">
-            <iframe class="modal_video" src="https://www.youtube.com/embed/Z5htoHU8E38"> </iframe>
+            <iframe class="modal_video" src="" id="trd_video"> </iframe>
           </div>
         </div>
       </div>
@@ -705,7 +721,7 @@
       >
         <div class="modal-dialog" role="document">
           <div class="modal-content" id="yt-player">
-            <iframe class="modal_video" src="https://www.youtube.com/embed/IrHXg92Vg6E"> </iframe>
+            <iframe class="modal_video" src="" id="fth_video"> </iframe>
           </div>
         </div>
       </div>
